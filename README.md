@@ -5,3 +5,4 @@
 4. Shell sort
 5. Merge sort
 6. Quick sort
+7. Hash Table
