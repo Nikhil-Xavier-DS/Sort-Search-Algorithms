@@ -6,7 +6,7 @@ Implementation of Bubble Sort.
 # License: BSD 3 clause
 
 
-def bubble_sort(arr):
+def Bubble_sort(arr):
     """Function to perform Bubble sort in ascending order.
 
     TIME COMPLEXITY: Best:O(n), Average:O(n^2), Worst:O(n^2)

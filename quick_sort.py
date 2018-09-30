@@ -6,8 +6,8 @@ Implementation of Quick Sort.
 # License: BSD 3 clause
 
 
-def quick_sort(arr):
-    """Function to perform Merge sort in ascending order.
+def Quick_sort(arr):
+    """Function to perform Quick sort in ascending order.
 
     TIME COMPLEXITY: Best:O(n ln(n)), Average:O(n ln(n)), Worst: O(n^2)
     SPACE COMPLEXITY: Worst: O(ln(n))
@@ -17,7 +17,7 @@ def quick_sort(arr):
 
 
 def _quick_sort(arr, first, last):
-    """Helper function to perform Merge sort in ascending order.
+    """Helper function to perform quick sort in ascending order.
 
     Called by quick_sort(). Calls helper function _pivot_func().
     """

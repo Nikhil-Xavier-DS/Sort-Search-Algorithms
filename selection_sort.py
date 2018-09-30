@@ -6,7 +6,7 @@ Implementation of Selection Sort.
 # License: BSD 3 clause
 
 
-def selection_sort(arr):
+def Selection_sort(arr):
     """Function to perform Selection sort in ascending order.
 
     TIME COMPLEXITY: Best:O(n^2), Average:O(n^2), Worst:O(n^2)

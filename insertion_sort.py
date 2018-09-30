@@ -6,7 +6,7 @@ Implementation of Insertion Sort.
 # License: BSD 3 clause
 
 
-def insertion_sort(arr):
+def Insertion_sort(arr):
     """Function to perform Insertion sort in ascending order.
 
     TIME COMPLEXITY: Best:O(n), Average:O(n^2), Worst:O(n^2)

@@ -6,7 +6,7 @@ Implementation of Shell Sort.
 # License: BSD 3 clause
 
 
-def shell_sort(arr):
+def Shell_sort(arr):
     """Function to perform Shell sort in ascending order.
 
     TIME COMPLEXITY: Best:O(n ln(n)), Average:O(n ln(n)^2), Worst:O(n ln(n)^2)

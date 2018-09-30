@@ -6,7 +6,7 @@ Implementation of Merge Sort.
 # License: BSD 3 clause
 
 
-def merge_sort(arr):
+def Merge_sort(arr):
     """Function to perform Merge sort in ascending order.
 
     TIME COMPLEXITY: Best:O(n ln(n)), Average:O(n ln(n)), Worst:O(n ln(n))
