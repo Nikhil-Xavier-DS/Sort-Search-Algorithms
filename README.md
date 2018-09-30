@@ -1,6 +1,6 @@
 # Sorting Algorithms: Pypi Repository for Search and Sort Algorithms
 
-pip install search_sort
+## pip install search_sort
 
 List of searching and sorting algorithms
 1. Bubble sort
