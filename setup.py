@@ -1,13 +1,12 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
-setup(name='my_Sort',
-      version='1.0',
+setup(name='search_sort',
+      version='1.1',
+	  url='https://github.com/Nikhil-Xavier-DS/Sort-Search-Algorithms',
       description='Search and Sort algorithms library',
-      long_description='Library for Searching and Sorting Algorithms',
+      long_description=open('pip_search_sort.md').read(),
       author='Nikhil Xavier',
       author_email='nikhilxavier@yahoo.com',
-      packages=['search_sort'],
+      packages=find_packages(exclude=['tests']),
       zip_safe=False,
-      keywords='search sort algorithms',
-      test_suite='nose.collector',
-      tests_required=['nose'])
+      keywords='search sort algorithms')
